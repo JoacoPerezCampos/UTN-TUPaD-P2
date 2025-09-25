@@ -1,7 +1,5 @@
 package prog2_tp4;
 
-import java.util.Objects;
-
 public class Empleado {
 
     private int id;
