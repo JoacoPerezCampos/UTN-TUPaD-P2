@@ -57,6 +57,7 @@ public class Prog2_TP3 {
         nave1.recargarCombustible(30);
         nave1.avanzar(30);
         
+        System.out.println("");
         System.out.println("Estado de la nave:");
         nave1.mostrarEstado();
     }
