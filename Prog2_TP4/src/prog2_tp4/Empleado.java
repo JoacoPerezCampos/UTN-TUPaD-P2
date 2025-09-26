@@ -64,19 +64,19 @@ public class Empleado {
     // Método toString()
     @Override
     public String toString() {
-        return "Empleado: " + nombre + " " + "\nID: " + id 
+        return "Empleado: " + nombre + " " + "\nID: " + id
                 + "\nPuesto: " + puesto + "\nSalario: $" + salario + "\n";
     }
-        
+
     // Métodos sobrecargados actualizarSalario
-    public void actualizarSalario(double porcentaje){
-        this.salario += this.salario * (porcentaje/100);
+    public void actualizarSalario(double porcentaje) {
+        this.salario += this.salario * (porcentaje / 100);
     }
-    
-    public void actualizarSalario(int cantidadFija){
+
+    public void actualizarSalario(int cantidadFija) {
         this.salario += cantidadFija;
     }
-    
+
     // Método mostrar total de empleados
     public static int mostrarTotalEmpleados() {
         return totalEmpleados;
