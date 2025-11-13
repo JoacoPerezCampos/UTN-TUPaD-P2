@@ -1,0 +1,32 @@
+package prog2_tp8.pt1;
+
+public class Producto implements IPagable {
+
+    private String nombre;
+    private double precio;
+
+    public Producto() {
+    }
+
+    public Producto(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Producto(String nombre, double precio) {
+        this.nombre = nombre;
+        this.precio = precio;
+    }
+
+    @Override
+    public double calcularTotal() {
+        return precio;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+}
